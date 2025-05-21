@@ -146,6 +146,14 @@ def main(pano_path, out_dir, blend_width, progress_callback):
         target_paths = [
             os.path.join(temp_overlay_dir, "assets", "minecraft", "mcpatcher", "sky", "world0", "cloud1.png"),
             os.path.join(temp_overlay_dir, "assets", "minecraft", "optifine", "sky", "world0", "cloud1.png"),
+            os.path.join(temp_overlay_dir, "assets", "minecraft", "mcpatcher", "sky", "world0", "cloud2.png"),
+            os.path.join(temp_overlay_dir, "assets", "minecraft", "optifine", "sky", "world0", "cloud2.png"),
+            os.path.join(temp_overlay_dir, "assets", "minecraft", "mcpatcher", "sky", "world0", "skybox.png"),
+            os.path.join(temp_overlay_dir, "assets", "minecraft", "optifine", "sky", "world0", "skybox.png"),
+            os.path.join(temp_overlay_dir, "assets", "minecraft", "mcpatcher", "sky", "world0", "skybox2.png"),
+            os.path.join(temp_overlay_dir, "assets", "minecraft", "optifine", "sky", "world0", "skybox2.png"),
+            os.path.join(temp_overlay_dir, "assets", "minecraft", "mcpatcher", "sky", "world0", "starfield.png"),
+            os.path.join(temp_overlay_dir, "assets", "minecraft", "optifine", "sky", "world0", "starfield.png"),
         ]
         for target_path in target_paths:
             os.makedirs(os.path.dirname(target_path), exist_ok=True)
