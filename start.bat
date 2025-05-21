@@ -10,7 +10,7 @@ IF ERRORLEVEL 1 (
     exit /b
 )
 
-python -m pip install tkinder pillow numpy
+python -m pip install tkinter pillow numpy
 
 IF NOT EXIST "%PYFILE%" (
     echo Die Datei %PYFILE% wurde nicht gefunden!
